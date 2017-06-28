@@ -57,7 +57,7 @@ class ViewController: UIViewController {
             case 6:
                 //Uncomment the three lines below for Stretch #5
                 let sentence = "Here is my sentence"
-                let tuple = findVowelsConsonants(Sentence: sentence)
+                let tuple = findVowelsConsonants(sentence: sentence)
                 output5 = sentence + ", has:\n" + "Vowels:\(tuple.0) Consonants:\(tuple.1)"
                 myTextView.text =  output5
             default:
